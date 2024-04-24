@@ -3,7 +3,7 @@ import requests
 import os
 from urllib.parse import urljoin
 
-url = "https://www.krccnc.com"
+url = "https://en.wikipedia.org/wiki/Python_(programming_language)"
 response = requests.get(url)  # HTML sayfası için istek atıyoruz
 
 soup = BeautifulSoup(response.text, "html.parser")  # HTML sayfasını parçalıyoruz
